@@ -512,6 +512,7 @@ dependencies = [
     { name = "isort" },
     { name = "langchain" },
     { name = "langchain-ollama" },
+    { name = "ollama" },
     { name = "python-dotenv" },
 ]
 
@@ -521,6 +522,7 @@ requires-dist = [
     { name = "isort", specifier = ">=9.0.2" },
     { name = "langchain", specifier = ">=1.4.7" },
     { name = "langchain-ollama", specifier = ">=1.1.0" },
+    { name = "ollama", specifier = ">=0.6.3" },
     { name = "python-dotenv", specifier = ">=1.2.4" },
 ]
 
