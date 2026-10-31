@@ -1,8 +1,9 @@
-from dotenv import load_dotenv
-from langchain_unstructured import UnstructuredLoader
-from langchain_pinecone import PineconeVectorStore, PineconeEmbeddings
-from langchain_text_splitters import CharacterTextSplitter
 import os
+
+from dotenv import load_dotenv
+from langchain_pinecone import PineconeEmbeddings, PineconeVectorStore
+from langchain_text_splitters import CharacterTextSplitter
+from langchain_unstructured import UnstructuredLoader
 from pinecone import Pinecone, ServerlessSpec
 
 load_dotenv()
